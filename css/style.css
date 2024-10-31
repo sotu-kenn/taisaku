@@ -64,15 +64,23 @@ article{
 }
 
 /*oomidasi*/
-.oomidasi {
+.oomidasihanndan {
     padding: 0.5em 1em;
     margin: 2em 0;
     border: double 5px #d34e5e;
     width: fit-content;
+    font-size: 200%;
+    font-weight: 100;
+    margin-top: 1%; 
+    padding: 1%;
 }
 
 
-.oomidasi {
+.oomidasisuuteki {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #4e5bd3;
+    width: fit-content;
     font-size: 200%;
     font-weight: 100;
     margin-top: 1%; 
@@ -81,16 +89,30 @@ article{
 
 
 
-.midasi{
+.midasihanndan{
     font-size: 30px;
     margin-left: 3%;
     border-bottom:  3px red solid;
     width: fit-content;
 }
 
-article h2{
+.midasisuuteki{
+    font-size: 30px;
+    margin-left: 3%;
+    border-bottom:  3px blue solid;
     width: fit-content;
-    border-bottom: 3px #0bd solid;
+}
+
+.h2hanndan{
+    width: fit-content;
+    border-bottom: 3px red solid;
+    padding: 5px 35px 5px 5px;
+    margin: 20px 0px 10px 50px;
+}
+
+.h2suuteki{
+    width: fit-content;
+    border-bottom: 3px blue solid;
     padding: 5px 35px 5px 5px;
     margin: 20px 0px 10px 50px;
 }
@@ -154,7 +176,7 @@ article p{
 }
 
 .hinshutu{
-    margin: 0 0 7% 4%;
+    margin: 10% 0 7% 4%;
 }
 
 .mondaibun{
@@ -407,7 +429,26 @@ aside li{
   }
 
 /*ボタン*/
-.botan {
+.botanhanndan {
+    width: fit-content;
+    text-align: center;
+    margin: 0 0 5% 0;
+    padding: 10px 30px;
+    background-color: #FFF;
+    border: solid 3px #ff9595;
+    border-radius: 8px;
+
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+
+    position: sticky;/*追従*/
+    bottom: 5%;
+    left: 75%;
+  }
+
+  .botansuuteki {
     width: fit-content;
     text-align: center;
     margin: 0 0 5% 0;
@@ -474,3 +515,4 @@ footer p{
     opacity: 1;
     background-color:#e0fdff;
 }
+
