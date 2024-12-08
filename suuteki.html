@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>公務員試験対策サイト</title>
+        <meta name="description" content="公務員試験対策のためのサイト">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.mi.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="page-header wrapper">
+            <h1>公務員試験対策サイト</h1>
+            <h1 class="logo" id="botan"><a href="index.html">ホーム</a></h1>
+            <div class="accordion-box page-header">
+                <input type="checkbox" id="tab1" />
+                <label for="tab1">教養科目</label>
+                <div>
+                   <p><a href="hanndann.html">判断推理</a></p>
+                   <p><a href="suuteki.html">数的推理</a></p>
+                </div><!--//ラベル1ここまで-->
+                <input type="checkbox" id="tab2" />
+                <label for="tab2">専門科目</label>
+                <div>
+                    <p><a href="kennpou.html">憲法</a></p>
+                    <p><a href="minnpou.html">民法</a></p>
+                </div><!--//ラベル2ここまで-->
+            </div><!--//accordion-box-->
+        </header>
+
+        <div class="news-contents">
+            <article>
+                <ol>
+                    <h1 class="oomidasisuuteki">数的推理</h1>
+                    <li  class="midasisuuteki" id="hanndan1">数的推理とは</li>
+                    <p>
+                        　判断推理は「数的処理」という分野に属しており、数的処理は「判断推理」、「数的推理」、「資料解釈」という3つの分野から
+                        構成されています。「数的処理」は教養試験のなかで最も配点の高い科目であるため、この科目をおろそかにしてしまうと
+                        大きく点数を落としてしまう結果となります。<br>
+        
+                        　数的推理は、判断推理と異なり数学的知識が必要となるため、難しいと感じる方も多いかと思われます。
+                        しかし、判断推理は解き方を理解していても答えを出すまでに時間がかかりますが、数的推理は解き方を覚えれば
+                        素早くスムーズに答えを出すことができます。そのため、勉強すればするほど本番の試験で時間配分が楽になるため、
+                        難しくても根気強く取り組むことが大切です。<br>
+                
+                        　数的推理の出題数は、年度や業種によって多少の変動はありますが「判断推理」と同じくらいで6~7問です。前述のとおり、「数的処理」自体も配点の高い分野ですが、
+                        その中でも数的推理はその出題数の4割近くを占めるため対策は不可欠な科目です。
+                    </p>
+
+                    <li  class="midasisuuteki" id="hanndan2">勉強のポイント</li>
+                    <p>
+                        　同じく数的処理に分類される科目に「判断推理」という科目がありますが、それと比較すると
+                        数学的知識が必要な問題が多いです。そのため、前述のとおり、解けば解くほど実力がつき、
+                        本番の試験を楽に進めることが可能です。問題に慣れるために多くの過去問に触れ、
+                        解くための手順を理解していきましょう！
+                    </p>
+                    <div class="hansei">
+                        <span class="box-title">私の反省点</span>
+                            <ul id="hanndannpoint">
+                                <li>
+                                    公務員試験は時間内に数多くの問題を解かなければいけないため、一問あたりに使える時間が限られています。
+                                    練習の時から時間を意識して解くようにしてください。目安は一問あたり3~4分です。
+                                </li>
+                                <li>
+                                    解けた解けなかったで一喜一憂するのではなく、「どういう風に解いたか」や「その問題を解く上でのポイントはどこだったか
+                                    （＝その問題から何を学んだか）」を意識して答え合わせをしてください。
+                                    （コレを意識するだけでほかの問題への応用力が結構変わります！）
+                                </li>
+                            </ul>
+                    </div>
+
+                    <li  class="midasisuuteki" id="hanndan3">演習問題</li>
+                    <h2 class="hinshutu h2suuteki" id="kazu">頻出テーマ1.数の計算</h2>
+
+                    <div class="kaitounokotu">
+                        <span class="box-title">回答のコツ</span>
+                            <ul id="hanndannpoint">
+                                <li>
+                                    出力値が分かっている時は、逆算して考える。
+                                </li>
+                                <li>
+                                    「整数のx乗の一の位」は、一の位のx乗の値の一の位になる。<br>
+                                    (ex.19の3乗の一の位は、9の3乗=9×9×9=81×9=729より、9)
+                                </li>
+                                <li>
+                                    「偶数+奇数＝奇数」、「偶数+偶数＝偶数」、「奇数+奇数＝偶数」
+                                </li>
+                            </ul>
+                    </div>
+
+                    <h3 class="kiso">基礎編</h3>
+                    <p class="mondaibun">
+                        「10,11」のように2つの連続する2ケタの整数を、それぞれに2乗して足し合わせた数のうち、
+                        一の位が3となるものはいくつあるか。
+                    </p>
+
+                    <ol class="mondaibun">
+                        <li>12</li>
+                        <li>14</li>
+                        <li>16</li>
+                        <li>18</li>
+                        <li>20</li>
+                    </ol>
+                    
+                    <div class="menu-box">
+                        <input id="check-box" type="checkbox">
+                        <label class="menu-label-title" for="check-box">
+                            <span class="menu-title">解答をみる</span>
+                            <span></span>
+                            <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">
+                            正答：4
+                        </div>
+                    </div><!-- .menu-box -->
+                    <div class="menu-box">
+                            <input id="check-box2" type="checkbox">
+                            <label class="menu-label-title" for="check-box2">
+                              <span class="menu-title">解説をみる</span>
+                              <span></span>
+                              <span></span>
+                            </label><!-- .menu-label-title -->
+                            <div class="menu-text">
+                                <p>
+                                    0~9までの数とそれを二乗したものの一覧は下図のようになる。
+                                </p>
+                                <img src="images/48.png" alt="数の計算基礎1" title="数の計算基礎1" class="imageright" width="90%"><br>
+
+                                <p>
+                                    上図より、<span class="juuyou">2つの連続する整数の二乗の和の一の位が3になるもの</span>は、<br>
+                                    ”2と3”の組み合わせと、”7と8”の組み合わせの2種類である。<br>
+                                    (4+9=13 と 49+64=113)
+                                </p>
+
+                                <p>
+                                    この2種類の組み合わせが2ケタの整数となるのは、<br>
+                                    12,13 ~ 92,93 の9つと、<br>
+                                    17,18 ~ 97,98 の9つの、計18個
+                                </p>
+                                
+                                <p>
+                                    よって正解は4の18個。
+                                </p>
+                            </div>
+                    </div>
+                          
+
+                    <h3 class="ouyou">応用編</h3>
+                    <p class="mondaibun">
+                        2ケタの整数A,B,C,D(A＜B＜C＜D)がある。この4つの数字のうち偶数が1個で、奇数が3個であった。
+                        このうち2つの数字を足すと全部で6通りの組み合わせがあり、そのうち小さいほうから4つは43,46,50,55である。<br>
+                        このとき、Dの一の位と十の位の和はいくつか。
+                    </p>
+
+                    <ol class="mondaibun">
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                    </ol>
+                    
+
+                    <div class="menu-box">
+                        <input id="check-box3" type="checkbox">
+                        <label class="menu-label-title" for="check-box3">
+                          <span class="menu-title">解答をみる</span>
+                          <span></span>
+                          <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">正答：1</div>
+                      </div><!-- .menu-box -->
+                      <div class="menu-box">
+                        <input id="check-box4" type="checkbox">
+                        <label class="menu-label-title" for="check-box4">
+                          <span class="menu-title">解説をみる</span>
+                          <span></span>
+                          <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">
+                            <p>
+                                和の組み合わせ6つというのは、A+B,A+C,A+D,B+C,B+D,C+D の6つである。
+                            </p>
+
+                            <p>
+                                A＜B＜C＜Dより、<span class="juuyou">一番小さい和はA+Bで、二番目に小さい和はA+C</span>である。<br>
+                                したがって、A+B=43、A+C=46とわかる。
+                            </p>
+
+                            <p>
+                                ここで、<span class="juuyou">「偶数+奇数＝奇数」</span>かつ<span class="juuyou">「奇数+奇数＝偶数」</span>より、<br>
+                                A+B=43だから、<span class="juuyou">AかBのいずれかが奇数</span>であることが推測でき、<br>
+                                A+C=46より、<span class="juuyou">AとCが偶数</span>であることも推測できる。<br>
+                                よって、Bが偶数で、A,C,Dの3つが奇数であるとわかる。<br>
+                                (∵問題文より、A,B,C,Dのうち1つだけが偶数のため。)
+                            </p>
+
+                            <p>
+                                <span class="juuyou">三番目に小さい和はA+DかB+Cのいずれか</span>であると推測できるが、<br>
+                                Bが偶数であることが分かっているため、「奇数+奇数」となるA+Dが三番目に小さい和と推測できる。<br>
+                                よって、A+D=50。
+                                またそれにより、四番目に小さい和はB+Cであることが分かるため、B+C=55である。
+                            </p>
+                            
+                            <p>
+                                今までの過程で、<br>
+                                A+B=43、A+C=46、A+D=50、B+C=55ということが分かっている。
+                                よってこの四式を連立すると下図のようになる。<br>
+                                <table>
+                                    <tr>
+                                        <td><img src="images/49.png" alt="数の計算応用1" title="数の計算応用1" class="imageright" width="60%"></td>
+                                        <td><img src="images/50.png" alt="数の計算応用2" title="数の計算応用2" class="imageright" width="60%"><br></td>
+                                    </tr>
+                                </table>
+
+                                <table>
+                                    <tr>
+                                        <td><img src="images/51.png" alt="数の計算応用3" title="数の計算応用3" class="imageright" width="60%%"></td>
+                                        <td><img src="images/52.png" alt="数の計算応用4" title="数の計算応用4" class="imageright" width="60%"><br></td>
+                                    </tr>
+                                </table>
+                            </p>
+
+                            <p>
+                                上記の計算より、D=33だから、3+3=6。
+                            </p>
+
+                            <p>
+                                よって正解は1。
+                            </p>
+                            
+                         </div>
+                      </div><!-- .menu-box -->
+
+
+                <h2 class="hinshutu h2suuteki" id="yakubai">頻出テーマ2.約数・倍数</h2>
+                <div class="kaitounokotu">
+                    <span class="box-title">回答のコツ</span>
+                        <ul id="hanndannpoint">
+                            <li>
+                                整数条件のときに分数が出てきたら、「倍数」が使えないか考える。<br>
+                                (ex.x=2/3y で「xが整数」なら、「yは3の倍数」かつ「xは2の倍数」)
+                            </li>
+                            <li>
+                                「〇〇で割り切れる」や「〇〇ごと」などの記述があったら、「倍数」が使えないか考える。
+                            </li>
+                            <li>
+                                「pで割ってq余る数x」は「x=pm+q(mは1以上の整数)」で表せる。<br>
+                                (ex..8で割って2余る数xは、x=8m+2となる。<br>
+                                　⇒　m=1ならx=10 → 10÷8=1余り2<br>
+                                　　　m=2ならx=18 → 18÷8=2余り2)                                
+                            </li>
+                        </ul>
+                </div>
+
+
+
+                <h3 class="kiso">基礎編</h3>
+                <p class="mondaibun">
+                    A~Dの4人が、100点満点の試験を受けた。4人の得点について、次のことが分かっているとき、
+                    Aの得点とBの得点を足し合わせた得点はどれか。ただし、試験の得点は全て整数とし、
+                    0点の者はいないものとする。
+                </p>
+                <img src="images/53.png" alt="約数・倍数問題" title="約数・倍数問題" class="imageright" width="40%"><br>
+
+                <ol class="mondaibun">
+                    <li>36点</li>
+                    <li>60点</li>
+                    <li>96点</li>
+                    <li>120点</li>
+                    <li>144点</li>
+                </ol>
+
+                <div class="menu-box">
+                    <input id="check-box5" type="checkbox">
+                    <label class="menu-label-title" for="check-box5">
+                        <span class="menu-title">解答をみる</span>
+                        <span></span>
+                        <span></span>
+                    </label><!-- .menu-label-title -->
+                    <div class="menu-text">正答：4</div>
+                </div><!-- .menu-box -->
+                <div class="menu-box">
+                        <input id="check-box6" type="checkbox">
+                        <label class="menu-label-title" for="check-box6">
+                          <span class="menu-title">解説をみる</span>
+                          <span></span>
+                          <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">
+                            <p>
+                                A~Dの得点をa~dとおく。
+                            </p>
+
+                            <p>
+                                「Aの得点は、Bの得点の5/7倍」より、a=5/7bであるから、<br>
+                                <span class="juuyou">bが7の倍数かつ、aが5の倍数</span>であることが分かる。
+                            </p>
+
+                            <p>
+                                「Bの得点は、Cの得点の5/3倍」より、b=5/3cであるから、
+                                <span class="juuyou">cが3の倍数かつ、bが5の倍数</span>であることが分かる。
+                            </p>
+
+                            <p>
+                                bが7の倍数かつ5の倍数であるから、<span class="juuyou">5と7の最小公倍数である35の倍数</span>であることが推測できる。<br>
+                                試験は最高で100点のため、bは35か70であることが分かる。
+                            </p>
+
+                            <p>
+                                <span class="juuyou">(ⅰ)b=35のとき</span>、<br>
+                                a=5/7×35=25、c=3/5b=3/5×35=21
+                            </p>
+
+                            <p>
+                                <span class="juuyou">(ⅱ)b=70のとき</span>、<br>
+                                a=5/7×70=50、C=3/5b=3/5×70=42
+                            </p>
+
+                            <p>
+                                ここで、「Cの得点は、Dの得点の2倍」より、c=2dであるから、
+                                <span class="juuyou">Cが2の倍数(偶数)</span>であることが分かる。
+                                よって、c=21でなく、c=42であることが確定する。
+                            </p>
+
+                            <p>
+                                よって、a=50、b=70より<br>
+                                a+b=120となる。
+                            </p>
+
+                            <p>
+                                よって正解は4。
+                            </p>
+                        </div>
+                </div>
+
+                <h3 class="ouyou">応用編</h3>
+                    <p class="mondaibun">
+                        1~100までの数が1つずつ書かれた100枚のカードがある。この中から、ある2ケタの整数xで割り切れる数の書かれたカードを
+                        取り除いたところ、取り除かれたカードは4枚あった。さらに、残ったカードの中から8で割り切れるカードを取り除いたところ、
+                        新たに取り除かれたカードは11枚であった。この時、2ケタの整数xの十の位と一の位の数の和として正しいものは、次のうちどれか。
+                    </p>
+                    <ol class="mondaibun">
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                    </ol>
+                    
+
+                    <div class="menu-box">
+                        <input id="check-box7" type="checkbox">
+                        <label class="menu-label-title" for="check-box7">
+                            <span class="menu-title">解答をみる</span>
+                            <span></span>
+                            <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">正答：2</div>
+                    </div><!-- .menu-box -->
+                    <div class="menu-box">
+                            <input id="check-box8" type="checkbox">
+                            <label class="menu-label-title" for="check-box8">
+                              <span class="menu-title">解説をみる</span>
+                              <span></span>
+                              <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">
+                            <p>
+                                「整数xで割り切れる数の書かれたカードを取り除いたところ、取り除かれたカードは4枚あった。」
+                                とあるため、<span class="juuyou">1~100のなかでxの倍数が4つある</span>ということである。<br>
+                                よって、xの候補として考えられるのは「21,22,23,24,25」の5つ。
+                            </p>
+
+                            <p>
+                                次に、「残ったカードの中から8で割り切れるカードを取り除いたところ、新たに取り除かれたカードは11枚」
+                                とあるが、100÷8=12.5より、<span class="juuyou">本来であれば1~100のなかで8の倍数は12個あった</span>ため、<br>
+                                最初に取り除いたカードのうち、8の倍数が1つだけ入っているものを探す。
+                            </p>
+
+                            <p>
+                                (ⅰ)最初に取り除いたカードが21のとき、<br>
+                                取り除かれたカードは「21、42、63、84」で、このうち8の倍数は0個のため✕。
+                                (ⅱ)最初に取り除いたカードが22のとき、<br>
+                                取り除かれたカードは「22、44、66、88」で、このうち8の倍数は1個のため〇。
+                                (ⅲ)最初に取り除いたカードが23のとき、<br>
+                                取り除かれたカードは「23、46、69、92」で、このうち8の倍数は0個のため✕。
+                                (ⅳ)最初に取り除いたカードが24のとき、<br>
+                                取り除かれたカードは「24、48、72、96」で、このうち8の倍数は4個のため✕。
+                                (ⅴ)最初に取り除いたカードが25のとき、<br>
+                                取り除かれたカードは「25、50、75、100」で、このうち8の倍数は0個のため✕。
+                            </p>
+
+                            <p>
+                                (ⅰ)~(ⅴ)より、x=22であるから、2+2=4。
+                            </p>
+                            
+                            <p>
+                                よって正解は2。
+                            </p>
+                         </div>
+                      </div>
+                      
+                <h2 class="hinshutu h2suuteki" id="suuryou">頻出テーマ3.数量問題</h2>
+                <div class="kaitounokotu">
+                    <span class="box-title">回答のコツ</span>
+                        <ul id="hanndannpoint">
+                            <li>
+                                その条件のみでは確定せず、複数の条件を組み合わせることで確定することが多いため、
+                                考えられるパターンをすべて把握して適した答えを素早く見つけられるようにしておく。
+                            </li>
+
+                            <li>
+                               ほかのテーマに比べ文章が長くなることが多いため、数多くの問題をこなすことで読解力も身につけておきたい。
+                            </li>
+
+                            <li>
+                                図や表を作ると解きやすくなることがあるため、頭の中だけで考えず、図や表を積極的に用いて試行錯誤しながら解いていく。
+                            </li>
+                        </ul>
+                </div>
+
+
+
+                <h3 class="kiso">基礎編</h3>
+                <p class="mondaibun">
+                    ある職場では、表のような消耗品を3回に分けて必要個数だけ購入した。
+                </p>
+
+                <p class="mondaibun">
+                    〇1回目は、クリアファイルを除く3種類の消耗品をそれぞれ1個以上購入し、合計金額は1200円であった。<br>
+                    〇2回目および3回目は、ともに4種類全ての消耗品をそれぞれ1個以上購入し、合計金額は、2回目が2300円、
+                    3回目が1500円であった。
+                </p>
+
+                <p class="mondaibun">
+                    このとき、確実にいえるのはどれか。
+                </p>
+
+                <img src="images/54.png" alt="数量問題問題" title="数量問題問題" class="imageright" width="60%"><br>
+
+                <ol class="mondaibun">
+                    <li>1回目に消しゴムを2個購入した。</li>
+                    <li>1回目にガムテープを3個購入した。</li>
+                    <li>2回目に付せん紙を1個購入した。</li>
+                    <li>2回目にガムテープを3個購入した。</li>
+                    <li>3回目に消しゴムを1個購入した。</li>
+                </ol>
+                
+
+                
+                <div class="menu-box">
+                    <input id="check-box9" type="checkbox">
+                    <label class="menu-label-title" for="check-box9">
+                        <span class="menu-title">解答をみる</span>
+                        <span></span>
+                        <span></span>
+                    </label><!-- .menu-label-title -->
+                    <div class="menu-text">正答：3
+                    </div>
+                </div><!-- .menu-box -->
+                <div class="menu-box">
+                        <input id="check-box10" type="checkbox">
+                        <label class="menu-label-title" for="check-box10">
+                          <span class="menu-title">解説をみる</span>
+                          <span></span>
+                          <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">
+                            <p>
+                                1回目について、<br>
+                                「クリアファイルを除く3種類の消耗品をそれぞれ1個以上購入した」ため、<span class="juuyou">とりあえず1個ずつ購入した金額を調べる</span>と、
+                                110+170+290=570円。<br>
+                                そして「1回目の合計金額は1200円だった」ため、残金は1200-570=630円<br>
+                                630円で購入できるのは、付せん紙2個とガムテープ1個で170×2+290=630円となる。
+                            </p>
+
+                            <p>
+                                1回目終了時点での残りの消耗品の必要個数は、<br>
+                                消しゴムが6個、付せん紙が2個、ガムテープが6個、クリアファイルが2個。
+                            </p>
+
+                            <p>
+                                次は、合計金額が少ない3回目について検討する。<br>
+                                「3回目は、ともに4種類全ての消耗品をそれぞれ1個以上購入した」ため、<span class="juuyou">とりあえず1個ずつ購入した金額を調べる</span>と、
+                                110+170+290+530=1100円。<br>
+                                そして「3回目の合計金額は1500円だった」ため、残金は1500-1100=400円<br>
+                                400円で購入できるのは、消しゴム1個とガムテープ1個で110+290=400円となる。
+                            </p>
+
+                            <p>
+                                1回目と3回目終了時点での残りの消耗品の必要個数は、<br>
+                                消しゴムが4個、付せん紙が1個、ガムテープが4個、クリアファイルが1個。
+                            </p>
+
+                            <p>
+                                残りの必要個数で合計金額を調べると<br>
+                                110×4+170+290×4+530=440+170+1160+530=2300円となるため、2回目の合計金額と一致する。
+                            </p>
+
+                            <p>
+                                よって、各回で購入した消耗品の個数は<br>
+                                1回目...消しゴムが1個、付せん紙が3個、ガムテープが2個、クリアファイルが0個<br>
+                                2回目...消しゴムが4個、付せん紙が1個、ガムテープが4個、クリアファイルが1個<br>
+                                3回目...消しゴムが2個、付せん紙が1個、ガムテープが2個、クリアファイルが1個<br>
+                            </p>
+                            
+                            <p>
+                                よって正解は3。
+                            </p>
+                        </div>
+                </div>
+
+                <h3 class="ouyou">応用編</h3>
+                    <p class="mondaibun">
+                        大、中、小の3つのサイズの莢があり、大サイズの莢には豆が5粒、小サイズの莢には豆が3粒入っている。
+                        また、中サイズの莢には豆が4粒または5粒入っているが、その数は莢を開いてみなければわからない。<br>
+                        今、A~Dの4人がそれぞれいくつか莢を取り、その莢から豆を取り出して、自分の年齢の数だけ豆を集めることとした。
+                        各人が次のように述べているとき、4人の年齢の合計はいくつか。<br>
+                        A:「大サイズの莢を2個、中サイズの莢を2個、小サイズの莢を2個取ったところ、自分の年齢と同じ数の豆が入っていた。」<br>
+                        B:「中サイズの莢を4個取ったところ、自分の年齢より4粒多く豆が入っていた。また、4個の莢のうち少なくとも1個には、豆が5粒入っていた。」<br>
+                        C:「自分の年齢はAとBの年齢の合計と同じである。1個だけ小サイズの莢を取り、残りは大サイズの莢を取ったところ、
+                        自分の年齢と同じ数の豆が入っていた。」<br>
+                        D:「私は、Bより2歳年上である。小サイズの莢を5個以上取ったところ、自分の年齢と同じ数の豆が入っていた。」 
+                    </p>
+
+                    <ol class="mondaibun">
+                        <li>91</li>
+                        <li>92</li>
+                        <li>93</li>
+                        <li>94</li>
+                        <li>95</li>
+                    </ol>
+
+                    <div class="menu-box">
+                        <input id="check-box11" type="checkbox">
+                        <label class="menu-label-title" for="check-box11">
+                            <span class="menu-title">解答をみる</span>
+                            <span></span>
+                            <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">正答：1</div>
+                    </div><!-- .menu-box -->
+                    <div class="menu-box">
+                            <input id="check-box12" type="checkbox">
+                            <label class="menu-label-title" for="check-box12">
+                              <span class="menu-title">解説をみる</span>
+                              <span></span>
+                              <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">
+                            <p>
+                                まず、Aの年齢について考える。<br>
+                                Aは「大サイズの莢を2個、中サイズの莢を2個、小サイズの莢を2個取ったところ、自分の年齢と同じ数の豆が入っていた。」と述べており、<br>
+                                <span class="juuyou">中サイズは「4，4」、「4，5」、「5，5」の3パターン</span>ある。<br>
+                                よってAの年齢は、24歳、25歳、26歳のいずれかである。
+                            </p>
+
+                            <p>
+                                次にBの年齢について考える。<br>
+                                Bは「中サイズの莢を4個取ったところ、自分の年齢より4粒多く豆が入っていた。また、4個の莢のうち少なくとも1個には、豆が5粒入っていた。」と述べており、<br>
+                                <span class="juuyou">中サイズ「4，4，4，5」、「4，4，5，5」、「4，5，5，5」、「5，5，5，5」の4パターン</span>で、とった豆の数は17個，18個，19個，20個のいずれか。<br>
+                                よって、Bの年齢は、13歳、14歳、15歳、16歳のいずれか。
+                            </p>
+                            
+                            <p>
+                                次にCの年齢について考える。<br>
+                                Cは「自分の年齢はAとBの年齢の合計と同じである。1個だけ小サイズの莢を取り、残りは大サイズの莢を取ったところ、自分の年齢と同じ数の豆が入っていた。」と述べているため、<br>
+                                Cの年齢は、8歳、13歳、18歳、23歳、28歳、33歳、38歳、43歳....というような様子になる。<br>
+                                しかし、Cの年齢は、AとBの年齢の合計のため、<span class="juuyou">37歳~42歳の間になるから、38歳しかありえない</span>。
+                            </p>
+
+                            <p>
+                                次にDの年齢について考える。<br>
+                                D:「私は、Bより2歳年上である。小サイズの莢を5個以上取ったところ、自分の年齢と同じ数の豆が入っていた。」 と述べているため、
+                                Dの年齢は、15歳、18歳、20歳...というような様子になるが、<br>
+                                Bの年齢が13歳、14歳、15歳、16歳のいずれかのため、<span class="juuyou">Dは15歳か18歳となり、さらにBは13歳か16歳</span>となる。
+                            </p>
+
+                            <p>
+                                (ⅰ)Bの年齢が13歳のとき、<br>
+                                Cの年齢が38歳であることから、Aの年齢が25歳とわかる。<br><br>
+
+                                (ⅱ)Bの年齢が16歳のとき、<br>
+                                Cの年齢が38歳であることから、Aの年齢が22歳とわかる。<br>
+                                しかし、Aは24歳~26歳の間のため不適。
+                            </p>
+
+                            <p>
+                                よって、(ⅰ)の時のみがすべての条件を満たすとわかる。<br>
+                                よって、4人の年齢の合計は、25+13+38+15=91。
+                            </p>
+
+                            <p>
+                                よって正解は1。
+                            </p>
+
+                         </div>
+                      </div>
+
+
+
+                <h2 class="hinshutu h2suuteki"id="hayasa">頻出テーマ4.速さ・距離・時間</h2>
+
+                <div class="kaitounokotu">
+                    <span class="box-title">回答のコツ</span>
+                        <ul id="hanndannpoint">
+                            <li>
+                                「何を基準にして式を作るか」や「何を未知数にとるか」を考える。
+                                (問題を多くこなして慣れることが重要)
+                            </li>
+                            <li>
+                                「時速」や「30分」などがあったら単位をそろえる。
+                            </li>
+                            <li>
+                                速さ・距離・時間について、比を使うと解きやすくなることがあるため意識する。
+                            </li>
+                        </ul>
+                </div>
+
+
+
+                <h3 class="kiso">基礎編</h3>
+                <p class="mondaibun">
+                    地点Aから地点Bまでが上り坂、地点Bから地点Cまでが下り坂の一本道がある。
+                    地点Aを自転車で出発し、地点Cで15分間の休憩後、折り返し、復路の地点Bで8分間の休憩後、
+                    地点Aに戻ったところ、1時間15分かかった。
+                    地点Aから地点Cまでの距離はどれか。ただし、上り坂は時速6km,下り坂は時速20kmで走行する。
+                </p>
+
+                <ol class="mondaibun">
+                    <li>3250m</li>
+                    <li>3500m</li>
+                    <li>3750m</li>
+                    <li>4000m</li>
+                    <li>4250m</li>
+                </ol>
+                
+                
+                <div class="menu-box">
+                    <input id="check-box13" type="checkbox">
+                    <label class="menu-label-title" for="check-box13">
+                        <span class="menu-title">解答をみる</span>
+                        <span></span>
+                        <span></span>
+                    </label><!-- .menu-label-title -->
+                    <div class="menu-text">正答：4
+                    </div>
+                </div><!-- .menu-box -->
+                <div class="menu-box">
+                        <input id="check-box14" type="checkbox">
+                        <label class="menu-label-title" for="check-box14">
+                          <span class="menu-title">解説をみる</span>
+                          <span></span>
+                          <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">
+                            <img src="images/55.png" alt="速さ距離時間基礎1" title="速さ距離時間基礎1" class="imageright" width="60%"><br>
+                            <p>
+                               状況としては、上図のようになっている。<br>
+                               上図を参考に、<span class="juuyou">地点Aから地点Bまでをx kmとおき、地点Bから地点Cまでをy kmとおく</span>。
+                               求めるものは地点Ａから地点Ｃまでの距離のため、(x +y)である。
+                            </p>
+
+                            <p>
+                                <span class="juuyou">「往路にかかった時間」 +「復路にかかった時間」 + 「休憩時間」 = 「全部にかかった時間」...(⁎)という式を作っていく</span>。
+                            </p>
+
+                            <p>
+                                まず、「往路にかかった時間」について考えていく。<br>
+                                往路では、地点Aから地点Bまでが上り坂になるため時速6km/h、<br>
+                                復路では、地点Bから地点Cまでが下り坂になるため時速20km/hで走行したため、<br>
+                                (x/6 + y/20 )分　となる。
+                            </p>
+
+                            <p>
+                                次に、「復路にかかった時間」について考えていく。<br>
+                                往路では、地点Cから地点Bまでが上り坂になるため時速6km/h、<br>
+                                復路では、地点Bから地点Aまでが下り坂になるため時速20km/hで走行したため、<br>
+                                (y/6 + x/20 )分　となる。
+                            </p>
+
+                            <p>
+                                「休憩時間」は8分+15分=23分だが、<span class="juuyou">速度が時速のため、(23/60)分</span>となり、<br>
+                                「全部にかかった時間」は1時間15分のため(75/60)分となる。
+                            </p>
+
+                            <p>
+                                よって、(⁎)式は<br>
+                                (x/6 + y/20 ) + (y/6 + x/20 ) + 23/60 = 75/60 で両辺を60倍して<br>
+                                10x + 3y + 10y + 3x + 23 = 75<br>
+                                13x + 13y = 52<br>
+                                x + y = 4<br>
+                            </p>
+
+                            <p>
+                                よって、地点Aから地点Cまでの距離は4km = 4000mである。
+                                よって正解は4。
+                            </p>
+                        </div>
+                </div>
+
+                <h3 class="ouyou">応用編</h3>
+                    <p class="mondaibun">
+                    A~Cの3人が、X町からY町へ同じ道を通って行くことになった。まずAが
+                    徒歩で出発し、次に30分遅れてBがランニングで出発し、最後にCがB
+                    より一時間遅れて自転車で出発した。その結果、Cが、出発後30分で
+                    Aを追い越し、さらにその30分後にBを追い越したとき、AとCとの距離が
+                    6kmであったとすると、Bの速さはどれか。ただし、3人の進む速さはそ
+                    れぞれ一定とする。
+                    </p>
+
+                    <ol class="mondaibun">
+                        <li>時速7km</li>
+                        <li>時速8km</li>
+                        <li>時速9km</li>
+                        <li>時速10km</li>
+                        <li>時速11km</li>
+                    </ol>
+                    
+
+                    <div class="menu-box">
+                        <input id="check-box15" type="checkbox">
+                        <label class="menu-label-title" for="check-box15">
+                            <span class="menu-title">解答をみる</span>
+                            <span></span>
+                            <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">正答：2</div>
+                    </div><!-- .menu-box -->
+                    <div class="menu-box">
+                            <input id="check-box16" type="checkbox">
+                            <label class="menu-label-title" for="check-box16">
+                              <span class="menu-title">解説をみる</span>
+                              <span></span>
+                              <span></span>
+                        </label><!-- .menu-label-title -->
+                        <div class="menu-text">
+                            <p>
+                                A,B,Cの速さをそれぞれa km/h ,b km/h ,c km/hとおく。
+                            </p>
+
+                            <p>
+                                まず、a と c の関係について考えていく。<br>
+                                BはAより30分遅れて出発し、そのBよりCは1時間遅れて出発したため、
+                                CはAより1時間30分遅れて出発したことが分かる。<br>
+                                そして、Cが、出発後30分でAを追い越したため、
+                                <span class="juuyou">Aが2時間かかったところをCが30分で進んだ</span>ことが分かる。<br>
+                                よって、<span class="juuyou">a : c = 30 : 120 となり、c = 4a</span> となる。  
+                            </p>
+
+                            <p>
+                                次に、まず、b と c の関係について考えていく。<br>
+                                BよりCは1時間遅れて出発し、その60分後にCがBを追い越したため、
+                                <span class="juuyou">Bが2時間かかったところをCが1時間で進んだ</span>ことが分かる。<br>
+                                よって、<span class="juuyou">b : c = 60: 120 となり、c = 2b </span>となる。
+                            </p>
+
+                            <p>
+                                CがBを追い越したとき、AとCとの距離が6kmであったとあり、
+                                このとき、Aはスタートしてから2時間30分たち、Cはスタートしてから1時間たっている。<br>
+                                よって、60c - 150a = 6 となり、これにc = 4a を代入して計算すると a = 1/15 となり、
+                                c = 4/15 を得る。これをc = 2b に代入すると b = 8 となる。
+                            </p>
+
+                            <p>
+                                よって正解は2。
+                            </p>
+                         </div>
+                      </div>
+
+ 
+            </article>
+
+            
+        </div><!--/.news-contents-->
+
+
+        <div class="cp_cont">
+            <div class="cp_offcm01">
+                <input type="checkbox" id="cp_toggle01">
+                <label for="cp_toggle01"><span>目次</span></label>
+                <div class="cp_menu">
+                <ol>
+                <li><a href="#hanndan1">1.数的推理とは</a></li>
+                <li><a href="#hanndan2">2.勉強のポイント</a></li>
+                <li><a href="#hanndan3">3.演習問題</a></li>
+                <ol>
+                <li><a href="#kazu">3-1.数の計算</a></li>
+                <li><a href="#yakubai">3-2.約数・倍数</a></li>
+                <li><a href="#suuryou">3-3.数量問題</a></li>
+                <li><a href="#hayasa">3-4.速さ・距離・時間</a></li>
+                <li><a href="#setudan">3-5.</a></li>
+            </ol>
+                </ol>
+                </div>
+            </div>
+            </div>
+
+            <a href="#botan" class="botan"><img src="images/suutekibotan.png" alt="ボタン"title="ボタン" width="7%"></a>
+
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2024 osanai</small></p>
+            </div>
+        </footer>
+
+    </body>
+</html>
