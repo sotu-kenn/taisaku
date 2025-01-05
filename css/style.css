@@ -158,7 +158,7 @@ article ol{
 
 /*ホーム画面の見出し*/
 .homeoomidasi{
-    font-size: 200%;
+    font-size: 24px;
     margin-left: 2%;
     margin-top: 1%;
     border-bottom:  3px rgb(255, 187, 0) solid;
@@ -168,7 +168,7 @@ article ol{
 }
 
 .homemidasi{
-    font-size: 150%;
+    font-size: 20px;
     margin-top: 2%;
     border-bottom:  3px rgb(255, 187, 0) solid;
     white-space: nowrap;
