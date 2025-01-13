@@ -43,12 +43,14 @@ h1{
     display: flex;
     justify-content: space-between;
     font-size: 30px;
+white-space: nowrap;
 }
 
 .wrapper{
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 4%;
+	 overflow-x: scroll;
 }
 
 @media screen and (max-width: 959px) {
@@ -69,12 +71,14 @@ h1{
         display: flex;
         justify-content: space-between;
         font-size: 18px;
+		white-space: nowrap;
     }
     
     .wrapper{
         margin: 0 auto;
         padding: 0 4%;
         font-size: 18px;
+	     overflow-x: scroll;
     }
 }
 
@@ -96,11 +100,13 @@ h1{
         display: flex;
         justify-content: space-between;
         font-size: 18px;
+		white-space: nowrap;
     }
 
     .wrapper{
         margin: 0 5% 0 -5%;
         font-size: 18px;
+	     overflow-x: scroll;
     }
 }
 
