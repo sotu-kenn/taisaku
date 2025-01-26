@@ -32,7 +32,7 @@ h1{
 .logo2{
     height: fit-content;
     background-color:#F6D580;
-    white-space: nowrap;
+    
 }
 
 .page-header{
@@ -43,7 +43,7 @@ h1{
     display: flex;
     justify-content: space-between;
     font-size: 30px;
-    white-space: nowrap;
+    
 }
 
 .wrapper{
